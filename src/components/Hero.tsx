@@ -130,9 +130,12 @@ const Hero = () => {
             <Button
               size="lg"
               className="glow-button gradient-bg-primary text-primary-foreground border-0 px-8 py-6 text-base font-medium"
+              asChild
             >
-              <Download className="mr-2 h-5 w-5" />
-              Download Resume
+              <a href="/B.VENKATESH_DEVOPS_CV.pdf" download="B.VENKATESH_DEVOPS_CV.pdf">
+                <Download className="mr-2 h-5 w-5" />
+                Download Resume
+              </a>
             </Button>
             <Button
               size="lg"
